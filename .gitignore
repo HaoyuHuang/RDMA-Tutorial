@@ -35,3 +35,6 @@ rdma-tutorial
 
 # Output files
 *.log
+
+.idea/*
+cmake-build-debug/*
