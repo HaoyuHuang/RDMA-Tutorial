@@ -24,6 +24,8 @@ struct ConfigInfo {
     int  num_concurr_msgs;   /* the number of messages can be sent concurrently */
 
     char *sock_port;         /* socket port number */
+
+    bool use_huge_page;
 }__attribute__((aligned(64)));
 
 extern struct ConfigInfo config_info;
